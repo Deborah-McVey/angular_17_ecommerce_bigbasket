@@ -19,6 +19,24 @@ npm i bootstrap@5
 angular.json file add to styles
 "./node_modules/bootstrap/dist/css/bootstrap.min.css",
 
+** install PrimeNG and PrimeIcons
+
+npm install primeng primeicons
+
+  "node_modules/primeng/resources/themes/lara-light-indigo/theme.css",
+  "node_modules/primeng/resources/primeng.min.css",
+  "node_modules/primeicons/primeicons.css"
+
+** install NGX Toastr
+
+npm install ngx-toastr --save 
+
+"node_modules/ngx-toastr/toastr.css",
+
+** install quill
+
+npm install ngx-quill
+
 # admin
 
 ng g c pages/admin/cart
@@ -53,7 +71,7 @@ ng g c pages/website/web-products
  
 # services
 
-ng g s services/constant
+services/constant/constant.ts
 
 ng g s services/login
 
@@ -88,5 +106,9 @@ login.component.html and css
 
 ** make a user model **
 (class and interface)
+
+getting a Bootstrap navbar from w3schools.com for layout component
+
+used Bootstrap cards from w3schools.com within products component
 
 
