@@ -1,27 +1,92 @@
-# Angular17EcommerceBigbasket
+"Ecommerce App with Angular | Angular 17 Project | Admin Application" by Learning Partner on YouTube
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+https://www.youtube.com/watch?v=hejR2GfFXiA&t=652s
 
-## Development server
+Source Code
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://github.com/voidChetan/bigbasket_ecommerce_angular
 
-## Code scaffolding
+www.bigbasket.com
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Fruitable - Vegetable Website
 
-## Build
+https://themewagon.github.io/fruitables/
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+** install Bootstrap 5 
 
-## Running unit tests
+npm i bootstrap@5
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+angular.json file add to styles
+"./node_modules/bootstrap/dist/css/bootstrap.min.css",
 
-## Running end-to-end tests
+# admin
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ng g c pages/admin/cart
 
-## Further help
+ng g c pages/admin/categories
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ng g c pages/admin/customer
+
+ng g c pages/admin/layout
+
+ng g c pages/admin/login
+
+ng g c pages/admin/order
+
+ng g c pages/admin/products
+
+# website
+
+ng g c pages/website/category-products
+
+ng g c pages/website/checkout
+
+ng g c pages/website/customer-cart
+
+ng g c pages/website/customer-orders
+
+ng g c pages/website/footer
+
+ng g c pages/website/landing
+
+ng g c pages/website/web-products
+ 
+# services
+
+ng g s services/constant
+
+ng g s services/login
+
+ng g s services/product
+
+# shared
+
+ng g c shared/components/card/card
+
+ng g c shared/components/card/offer-card
+
+ng g guard shared/guards/auth
+
+ng g interceptor shared/interceptors/custom
+
+ng g interceptor shared/interceptors/error
+
+ng g pipe shared/pipes/truncate
+
+
+ng s -o
+
+http://localhost:4200/login
+
+
+https://codepen.io/
+
+login page code
+
+login.component.html and css
+
+
+** make a user model **
+(class and interface)
+
+
